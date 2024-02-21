@@ -10,9 +10,7 @@
 5. Найбільшої послідовністі чисел, яка збільшується
 6. Найбільшої послідовністі чисел, яка зменьшується
 
-Для використання алогіртму для запуску обчислень необхідно:
-
-## Для роботи з репозиторієм та використання алгорітму обчислень необхідно
+## Для роботи з репозиторієм та використання алгорітму обчислень необхідно:
 
 1. Склонувати репозиторій:
 
@@ -20,24 +18,28 @@
 git clone https://github.com/Tinkkid/Calculate-data.git
 ```
 
-2. Перевірити версію встановленої Node.js:
+2. Перевірити версію встановленої Node.js. Якщо node.js не встановлено або версія менша за v.16, то необхідно встановити/оновити node.js за посиланням [Nodejs website](https://nodejs.org/en/):
 
 ```bash
 node -v
 ```
 
-Якщо node не встановлено або застаріла (версія менша за v.16), то необхідно встановити/оновити за посиланням [Nodejs website](https://nodejs.org/en/)
+3. Зберегті файл для обчислень в папку `/data**` . Для виконання цього завдання використовувався файл - `10m.txt`, який треба завантажити за посиланням [файл - Drive Google](https://drive.google.com/file/d/1LxSB6UEAVK0NLgU0ah5y0CBbD0gL_oO9/), розпакувати та **зберігти** в папці `/data`
 
-3. В папку **data** зберегті файл для обчислень. Для виконання даного завдання використовувався файл - `10m.txt`, який треба завантажити за посиланням [Drive google file](https://drive.google.com/file/d/1LxSB6UEAVK0NLgU0ah5y0CBbD0gL_oO9/), розпакувати та **зберігти** в папці **data**
-
-:bangbang: Можна використати для обчислень інший файл набору цілих чисел. Для цього обов'язково треба **змінити ім'я файлу** в зміній **const FILE_NAME**, яка знаходиться в src/index.js
+:bangbang: Для обчислень можна використати інший файл набору цілих чисел. Для цього :exclamation:обов'язково необхідно **змінити ім'я файлу** в зміній `const FILE_NAME`, яка знаходиться в `src/index.js`
 
 ```bash
 const FILE_NAME = "data/вказати ім'я вашого файлу"
 ```
 
-4. Запустит файл в терміналі та отримати результат
+4. Запустити код в терміналі та отримати результат :computer:
 
 ```bash
 npm start
 ```
+
+## Контактна інформація
+Якщо у вас є будь-які запитання, зв’яжіться зі мною (також буду рада новим професійним знайомствам :handshake:):
+- :link: Linkedin - Yulia Kostovynska: [![Linkedin Badge](https://img.shields.io/badge/-Yuliia%20Kostovynska-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/yuliia-kostovynska/)
+- :mailbox: Email y.kostovynska@gmail.com
+- :hand: ознайомитись з іншими проектами - [![Github Badge](https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub&logoColor=white)](https://github.com/Tinkkid?tab=repositories)
